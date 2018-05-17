@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #303030;
+  background: url(../images/bg.png);
+  font-family: 'Arvo', serif;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(255,255,255,0.95);
+  text-align: center;
+  font-weight: 400;
+  font-size: 36px;
+  padding: 20px;
+}
+
+.main {
+  position: relative;
+  top: 130px;
+}
+
+.list p {
+  background-color: #fff;
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 5px;
+  font-size: 16px;
+  padding: 20px;
+}
+
+
+.glyphicon-star {
+  margin: 0 10px 0 10px;
+}
+
+.glyphicon-star:hover {
+  color: #ffcc00;
+  cursor: pointer;
+}
+
+.glyphicon-remove {
+  float: right;
+}
+
+.glyphicon-remove:hover {
+  color: #ed1c24;
+  cursor: pointer;
+}
+
+.form {
+  margin: 0 auto 5px;
+  height: 60px;
+  color: #473e39;
+  width: 380px;
+  padding: 0;
+}
+
+.form-container {
+  max-width: 380px;  
+}
+
+.form-input {
+    background: rgba(228,228,228,.95);
+    border: none;
+    box-shadow: 0 2px 2px rgba(0,0,0,.15);
+    color: #473e39;
+    float: left;
+    font-family: 'Arvo', serif;
+    font-size: 16px;
+    height: 60px;
+    margin: 0 5px 0 0;
+    padding: 0 20px;
+    width: 315px  
+}
+
+.btn {
+  float: left;
+  background: rgba(0,84,166,0.95);
+  border: none;
+  height: 60px;
+  width: 60px;
+  box-shadow: 0 2px 2px rgba(0,0,0,.15);
+  border-radius: 0;
+  color: #fff;
+  font-family: 'Arvo', serif;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background: rgba(0,129,255,0.95);
+  cursor: pointer;
+  color: #fff;
+}
+
+
+.active {
+  color: #ffcc00;
+}
+
+.hide {
+  display: none;
+}
